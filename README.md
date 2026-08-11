@@ -24,75 +24,28 @@ Retail-Billing/
 │
 └── README.md
 
+```md
 ## 🚀 Features
 
-### 🔐 Authentication
+### **🔐 Authentication**
 
-- **User Registration**
-- **User Login**
-- **JWT-based Authentication**
-- **Role-based Authorization**
-- **Admin and Employee access control**
+### **📊 Dashboard**
 
-### 📊 Dashboard
+### **📦 Product Management**
 
-- **Total Sales**
-- **Total Products**
-- **Total Customers**
-- **Low Stock Products**
-- **Sales Overview**
-- **Top Selling Products**
-- **Recent Bills**
+### **👥 Customer Management**
 
-### 📦 Product Management
+### **👨‍💼 Employee Management**
 
-- **Add Products**
-- **Update Products**
-- **Delete Products**
-- **View Products**
-- **Product Categories**
-- **Stock Management**
-- **Low Stock Detection**
+### **🧾 Billing**
 
-### 👥 Customer Management
-
-- **Add Customers**
-- **View Customers**
-- **Update Customer Information**
-- **Delete Customers**
-- **Customer Status Management**
-
-### 👨‍💼 Employee Management
-
-- **Add Employees**
-- **View Employees**
-- **Manage Employee Details**
-- **Role-based Access**
-
-### 🧾 Billing
-
-- **Create Bills**
-- **Add Multiple Products**
-- **Calculate Total Amount**
-- **Payment Method Selection**
-- **Generate Invoice**
-- **Print Invoice**
-
-### 📈 Reports
-
-- **Sales Reports**
-- **Monthly Sales**
-- **Date-wise Sales**
-- **Payment-wise Sales**
-- **Top Selling Products**
-- **Sales Charts**
-- **Export Reports**
+### **📈 Reports**
 
 ---
 
 ## 🛠️ Technologies Used
 
-### Frontend
+### **Frontend**
 
 - **React.js**
 - **Vite**
@@ -103,7 +56,7 @@ Retail-Billing/
 - **jsPDF**
 - **XLSX**
 
-### Backend
+### **Backend**
 
 - **Java**
 - **Spring Boot**
@@ -113,11 +66,11 @@ Retail-Billing/
 - **Hibernate**
 - **Maven**
 
-### Database
+### **Database**
 
 - **MySQL**
 
-### Development Tools
+### **Development Tools**
 
 - **VS Code**
 - **IntelliJ IDEA**
