@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #F8FAFC;
+}
+
+
+/* ================================
+   PRINT STYLES
+================================ */
+
+@media print {
+
+  .sidebar,
+  .navbar,
+  .print-btn {
+    display: none !important;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  /* Remove layout constraints */
+  .invoice-container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .invoice-paper {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 12mm !important;
+
+    box-shadow: none !important;
+    border: none !important;
+
+    transform: none !important;
+  }
+
+  .invoice-paper table {
+    width: 100% !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+}

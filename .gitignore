@@ -1,0 +1,17 @@
+# Frontend
+retail-billing-frontend/node_modules/
+retail-billing-frontend/dist/
+retail-billing-frontend/.env
+
+# Backend
+retail-billing-backend/target/
+retail-billing-backend/.idea/
+retail-billing-backend/*.iml
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
