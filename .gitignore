@@ -3,11 +3,6 @@ retail-billing-backend/target/
 retail-billing-backend/.idea/
 retail-billing-backend/*.iml
 
-# Frontend
-retail-billing-frontend/node_modules/
-retail-billing-frontend/dist/
-retail-billing-frontend/.vite/
-
 # IDE
 .idea/
 *.iml
@@ -15,7 +10,3 @@ retail-billing-frontend/.vite/
 # OS
 .DS_Store
 Thumbs.db
-
-# Environment files
-.env
-.env.*
