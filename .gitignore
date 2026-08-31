@@ -14,3 +14,5 @@ retail-billing-frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+# SSL Certificate
+retail-billing-backend/cert/
