@@ -3,6 +3,10 @@ retail-billing-backend/target/
 retail-billing-backend/.idea/
 retail-billing-backend/*.iml
 
+# Frontend
+retail-billing-frontend/node_modules/
+retail-billing-frontend/dist/
+
 # IDE
 .idea/
 *.iml
