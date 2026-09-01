@@ -16,3 +16,5 @@ retail-billing-frontend/dist/
 Thumbs.db
 # SSL Certificate
 retail-billing-backend/cert/
+target/
+*.class
