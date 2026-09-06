@@ -48,15 +48,14 @@ public class SecurityConfig {
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 
                 .authorizeHttpRequests(auth -> auth
+ // Allow preflight requests
+        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 
-                        // Allow preflight requests
-                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+        // Public APIs + home
+        .requestMatchers("/", "/api/auth/**").permitAll()
 
-                        // Public APIs
-                        .requestMatchers("/api/auth/**").permitAll()
-
-                        // All other APIs require login
-                        .anyRequest().authenticated()
+        // All other APIs require login
+        .anyRequest().authenticated()
                 )
 
                 .authenticationProvider(authenticationProvider())

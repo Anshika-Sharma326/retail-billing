@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Retail Billing Backend is running successfully!";
+        return "Retail Billing Backend is Running!";
     }
 }
